@@ -1,6 +1,11 @@
-Vue.component('todo-item', {
-    props: ['todo'],
-    template: '<li>{{ todo.text }}</li>'
+Vue.component('plant', {
+    props: ['info'],
+    template: `
+        <div>
+            {{ info.name }}
+            <img class="icon" :src="info.icon"></img>
+        </div>
+    `
 })
 
 

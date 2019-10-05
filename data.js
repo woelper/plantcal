@@ -6,7 +6,7 @@ plants = [
         start: "04-20",
         end: "08-01",
         info: "",
-        icon: ""
+        icon: "https://image.flaticon.com/icons/svg/123/123238.svg"
     },
     {
         name: "Tomate",
@@ -15,6 +15,6 @@ plants = [
         start: "04-20",
         end: "08-01",
         info: "",
-        icon: ""
+        icon: "https://image.flaticon.com/icons/svg/2166/2166244.svg"
     },
 ];

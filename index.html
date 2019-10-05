@@ -18,7 +18,12 @@
         
         <div class="container">
             <a class="button" href="#">Default Button</a>
-            <template v-for="plant in plants">{{plant}}</template>
+            <template v-for="plant in plants">
+                
+                <plant :info="plant"></plant>
+            
+            </template>
+
         </div>
     </div>
     
