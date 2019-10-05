@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <title>plantcal</title>
+    <script src="data.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="milligram.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="app">
+        <nav class="navigation"> yo {{current_time()}}</nav>
+        
+        <div class="container">
+            <a class="button" href="#">Default Button</a>
+            <template v-for="plant in plants">{{plant}}</template>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
